@@ -20,3 +20,6 @@ if ! dpkg -l | grep -q google-chrome-stable; then
     sudo dpkg -i google-chrome-stable_current_amd64.deb
     sudo apt-get install -f
 fi
+
+# Source .bash_aliases to apply changes immediately
+source ~/.bash_aliases
