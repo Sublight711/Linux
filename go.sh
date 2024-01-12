@@ -36,8 +36,5 @@ source ~/.bash_aliases
 # Restart the shell
 exec bash
 
-# Pause for troubleshooting
-read -p "Press [Enter] to continue..."
-
 # Automatically run "Update"
 update
