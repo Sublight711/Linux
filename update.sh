@@ -16,6 +16,6 @@ git pull origin
 
 echo "Updating Repositories"
 sudo apt-get update
-echo "Updating OS - Choose yes to questions"
+echo "Updating OS"
 sudo apt-get upgrade -y
 sudo apt upgrade -y google-chrome-stable
