@@ -31,3 +31,6 @@ fi
 
 # Source .bash_aliases to apply changes immediately
 source ~/.bash_aliases
+
+# Restart the shell
+exec bash
