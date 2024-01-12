@@ -7,15 +7,16 @@ echo "alias update='./update.sh'" >> ~/.bash_aliases
 # Ensure update.sh is executable
 chmod +x ./update.sh
 
+# Adding Fish shell PPA and installing Fish without manual input
 echo "Adding Fish shell PPA and installing Fish"
-sudo add-apt-repository ppa:fish-shell/release-3
+sudo add-apt-repository -y ppa:fish-shell/release-3
 sudo apt-get update
-sudo apt-get install fish
+sudo apt-get install -y fish
 
 # Set Fish as the default shell
 chsh -s /usr/bin/fish
 
-echo "Updating Repositories"
+# Updating Repositories
 sudo apt-get update
 echo "Updating OS - Choose yes to questions"
 sudo apt-get upgrade -y
