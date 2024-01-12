@@ -35,3 +35,6 @@ source ~/.bash_aliases
 
 # Restart the shell
 exec bash
+
+# Automatically run "Update"
+update
